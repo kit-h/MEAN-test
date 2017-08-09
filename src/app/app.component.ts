@@ -1,7 +1,14 @@
 import { Component } from '@angular/core';
+import {SportsComponent} from './sports.component'
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl: `./app.component.html`,
 })
-export class AppComponent  { name = 'Angular'; }
+
+
+export class AppComponent  {
+  name = 'Olympics'
+
+
+}
